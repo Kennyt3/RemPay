@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.Rem {
+  color: rgba(17, 106, 204, 1);
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+}
+
+.Pay {
+  font-family: 'Lato', sans-serif;
+  color: rgba(156, 163, 175, 1);
+  font-size: 32px;
+  font-weight: 700;
+}

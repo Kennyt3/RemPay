@@ -1,0 +1,26 @@
+.dropbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: rgba(75, 85, 99, 1);
+}
+.dropboxopen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: blue;
+}
+
+.open {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background-color: red;
+}
+
+.open ul {
+  list-style-type: none;
+}
