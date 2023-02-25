@@ -1,0 +1,49 @@
+.heading {
+  color: rgba(75, 85, 99, 1);
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 84px;
+}
+
+.subheading1 {
+  color: rgba(75, 85, 99, 1);
+  font-size: 24px;
+  max-width: 522px;
+  font-weight: 500;
+  line-height: 28.8px;
+  margin-top: 48px;
+}
+
+.subheading2 {
+  color: rgba(75, 85, 99, 1);
+  font-size: 24px;
+  max-width: 340px;
+  font-weight: 500;
+  line-height: 28.8px;
+  margin-top: 16px;
+}
+
+.btn {
+  background-color: rgba(17, 106, 204, 1);
+  color: rgba(243, 244, 246, 1);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  line-height: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+@media (max-width: 800px) {
+  .heading {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .subheading1 {
+    margin-top: 20px;
+  }
+}

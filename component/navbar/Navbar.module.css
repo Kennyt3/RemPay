@@ -1,34 +1,20 @@
 .container {
   padding-top: 10px;
   padding-bottom: 10px;
+  background-color: rgba(249, 249, 249, 1);
+  font-family: 'Lato';
 }
 
 .navigation {
   max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   /* gap: 20px; */
-}
-
-.navLinks {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.leftnavLinks {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
 }
 
 .menubar {
@@ -49,11 +35,56 @@
 
 .navLink {
   color: rgba(75, 85, 99, 1);
-  font-size: 18px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.navactive {
+  color: rgba(81, 156, 241, 1);
+  font-size: 24px;
   font-weight: 400;
 }
 
+.navLinks {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.leftnavLinks {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+@media (max-width: 1000px) {
+  .navLinks,
+  .leftnavLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .navLink {
+    color: rgba(75, 85, 99, 1);
+    font-size: 20px;
+    line-height: 28.8px;
+    font-weight: 400;
+  }
+  .navactive {
+    color: rgba(81, 156, 241, 1);
+    font-size: 20px;
+    line-height: 28.8px;
+    font-weight: 400;
+  }
+}
 @media (max-width: 800px) {
+  .navigation {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .leftnavLinks li,
   .navLinks li {
     display: none;

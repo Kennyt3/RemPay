@@ -27,7 +27,7 @@ const Dropdown = () => {
   return (
     <div {...getToggleButtonProps()}>
       <div className={`${!isOpen ? styles.dropbox : styles.dropboxopen}`}>
-        <span> Resources</span>
+        <span className={styles.res}> Resources</span>
         <RiArrowDropDownLine size={30} />
       </div>
       <div {...getMenuProps()} className={styles.open}>

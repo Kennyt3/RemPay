@@ -10,17 +10,30 @@
   align-items: center;
   justify-content: center;
   gap: 2px;
-  color: blue;
+  color: rgba(81, 156, 241, 1);
 }
 
 .open {
   position: absolute;
   top: 50px;
   left: 0;
+  z-index: 10;
   width: 100%;
   background-color: red;
 }
 
 .open ul {
   list-style-type: none;
+}
+
+.res {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+@media (max-width: 1000px) {
+  .res {
+    font-size: 20px;
+    font-weight: 400;
+  }
 }
