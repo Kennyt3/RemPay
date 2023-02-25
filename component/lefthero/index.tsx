@@ -4,12 +4,13 @@ import styles from './Lefthero.module.css'
 import Image from 'next/image'
 
 const Lefthero = (props: homePageType) => {
+  const { img1 } = props
   return (
     <div className={styles.container}>
       <Image
         width={400}
         height={400}
-        src='/pics/Hero.png'
+        src={img1}
         alt='hero Image'
         className={styles.image}
       />

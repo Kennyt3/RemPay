@@ -37,6 +37,17 @@
   font-weight: 700;
   margin-top: 40px;
 }
+
+.imgcon {
+  max-width: 400px;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 @media (max-width: 800px) {
   .heading {
     font-size: 40px;
@@ -45,5 +56,8 @@
 
   .subheading1 {
     margin-top: 30px;
+  }
+  .image {
+    display: none;
   }
 }
