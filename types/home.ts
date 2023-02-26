@@ -12,4 +12,6 @@ export type homePageType = {
   arrow: string
   vector: string
   card: string
+  dollar: string
+  bitcoin: string
 }

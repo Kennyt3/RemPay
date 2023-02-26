@@ -13,6 +13,8 @@ export const homePageData = () => {
     Blackulture: '/pics/Blackulture.png',
     arrow: '/pics/Arrow.png',
     card: '/pics/Card.png',
-    vector: 'pics/Vector.png',
+    vector: '/pics/Vector.png',
+    dollar: '/pics/Dollar.png',
+    bitcoin: '/pics/Bitcoin.png',
   }
 }

@@ -5,6 +5,7 @@ import Hero from '@/component/hero'
 import { homePageData } from '@/data/homedata'
 import { homePageType } from '@/types/home'
 import Leading from '@/component/leading'
+import Why from '@/component/why'
 
 export default function Home(props: homePageType) {
   return (
@@ -16,6 +17,7 @@ export default function Home(props: homePageType) {
       <main className={styles.main}>
         <Hero {...props} />
         <Leading {...props} />
+        <Why {...props} />
       </main>
     </>
   )
