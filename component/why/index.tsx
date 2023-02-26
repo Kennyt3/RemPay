@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './Why.module.css'
 import Image from 'next/image'
+import cardata from '@/data/cardata'
+import Card from '@/atoms/card'
 import { homePageType } from '@/types/home'
 const Why = (props: homePageType) => {
   const { dollar, bitcoin } = props
@@ -23,6 +25,11 @@ const Why = (props: homePageType) => {
         <div className={styles.bitcoin}>
           <Image width={200} height={200} src={bitcoin} alt='bitcoin' />
         </div>
+      </div>
+      <div className={styles.cardcon}>
+        {cardata.map((item, index) => (
+          <Card key={index} {...item} />
+        ))}
       </div>
     </div>
   )

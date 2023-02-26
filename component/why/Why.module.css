@@ -47,6 +47,29 @@
   display: none;
 }
 
+.cardcon {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media (max-width: 850px) {
+  .subcon {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .cardcon {
+    display: block;
+  }
+}
+
 @media (min-width: 850px) {
   .subcon {
     display: flex;
