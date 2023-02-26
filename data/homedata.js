@@ -16,5 +16,8 @@ export const homePageData = () => {
     vector: '/pics/Vector.png',
     dollar: '/pics/Dollar.png',
     bitcoin: '/pics/Bitcoin.png',
+    whyhead: 'Modern Payroll & HRM Solutions for SMEs',
+    whypara:
+      'Payroll & HRM are made simple with RemPay. Whether you are a large multinational, a small bakery, a freelancer, or trying to oversee your domestic team.',
   }
 }

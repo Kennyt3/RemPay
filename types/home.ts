@@ -14,4 +14,6 @@ export type homePageType = {
   card: string
   dollar: string
   bitcoin: string
+  whyhead: string
+  whypara: string
 }
