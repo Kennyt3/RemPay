@@ -7,8 +7,7 @@ import { homePageType } from '@/types/home'
 import Leading from '@/component/leading'
 import Why from '@/component/why'
 import Lino from '@/component/lino'
-import Acurr from '@/component/acurr'
-import acurrdata from '@/data/acurr'
+import Acurrcon from '@/component/acurrcon'
 
 export default function Home(props: homePageType) {
   return (
@@ -22,6 +21,7 @@ export default function Home(props: homePageType) {
         <Leading {...props} />
         <Why {...props} />
         <Lino {...props} />
+        <Acurrcon />
       </main>
     </>
   )
