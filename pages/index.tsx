@@ -7,6 +7,8 @@ import { homePageType } from '@/types/home'
 import Leading from '@/component/leading'
 import Why from '@/component/why'
 import Lino from '@/component/lino'
+import Acurr from '@/component/acurr'
+import acurrdata from '@/data/acurr'
 
 export default function Home(props: homePageType) {
   return (
