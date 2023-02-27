@@ -19,4 +19,6 @@ export type homePageType = {
   linohead: string
   linopara: string
   linoimage: string
+  acurrimg: string
+  acurr: string
 }

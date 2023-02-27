@@ -21,7 +21,7 @@ export default function Home(props: homePageType) {
         <Leading {...props} />
         <Why {...props} />
         <Lino {...props} />
-        <Acurrcon />
+        <Acurrcon {...props} />
       </main>
     </>
   )

@@ -23,5 +23,7 @@ export const homePageData = () => {
     linopara:
       'We are aware that human resources involves a lot of physically demanding tasks. So we designed RemPay, a payroll system that places a high priority on accuracy, ease of use, integration, security, and data analysis.',
     linoimage: '/pics/finance.png',
+    acurrimg: '/pics/acurrimg.png',
+    acur: 'acur',
   }
 }

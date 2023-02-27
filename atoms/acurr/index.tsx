@@ -7,7 +7,13 @@ const Acurr = (props: AcurrType) => {
   return (
     <div className={styles.container}>
       <div className={styles.imagecon}>
-        <Image width={50} height={50} alt={name} src={rp} />
+        <Image
+          width={40}
+          height={40}
+          alt={name}
+          src={rp}
+          className={styles.image}
+        />
       </div>
       <div className={styles.textcon}>
         <h4>{head}</h4>
