@@ -1,0 +1,36 @@
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+}
+
+.head {
+  color: rgba(75, 85, 99, 1);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  font-family: 'Lato';
+}
+
+.subheading {
+  color: rgba(75, 85, 99, 1);
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  margin-top: 20px;
+  max-width: 900px;
+}
+
+.subcon {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 850px) {
+  .imagecon {
+    display: none;
+  }
+}

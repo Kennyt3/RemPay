@@ -6,6 +6,7 @@ import { homePageData } from '@/data/homedata'
 import { homePageType } from '@/types/home'
 import Leading from '@/component/leading'
 import Why from '@/component/why'
+import Lino from '@/component/lino'
 
 export default function Home(props: homePageType) {
   return (
@@ -18,6 +19,7 @@ export default function Home(props: homePageType) {
         <Hero {...props} />
         <Leading {...props} />
         <Why {...props} />
+        <Lino {...props} />
       </main>
     </>
   )

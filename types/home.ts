@@ -16,4 +16,7 @@ export type homePageType = {
   bitcoin: string
   whyhead: string
   whypara: string
+  linohead: string
+  linopara: string
+  linoimage: string
 }

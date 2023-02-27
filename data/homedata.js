@@ -19,5 +19,9 @@ export const homePageData = () => {
     whyhead: 'Modern Payroll & HRM Solutions for SMEs',
     whypara:
       'Payroll & HRM are made simple with RemPay. Whether you are a large multinational, a small bakery, a freelancer, or trying to oversee your domestic team.',
+    linohead: 'Why Choose RemPay?',
+    linopara:
+      'We are aware that human resources involves a lot of physically demanding tasks. So we designed RemPay, a payroll system that places a high priority on accuracy, ease of use, integration, security, and data analysis.',
+    linoimage: '/pics/finance.png',
   }
 }
