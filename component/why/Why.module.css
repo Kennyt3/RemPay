@@ -48,11 +48,12 @@
 }
 
 .cardcon {
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
   padding-left: 5px;
   padding-right: 5px;
   margin-top: 20px;
