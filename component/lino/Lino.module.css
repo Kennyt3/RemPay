@@ -2,30 +2,38 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 96px;
   padding-left: 30px;
 }
 
 .head {
   color: rgba(75, 85, 99, 1);
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 700;
-  line-height: 38px;
+  line-height: 48px;
   font-family: 'Lato';
 }
 
 .subheading {
   color: rgba(75, 85, 99, 1);
   font-weight: 400;
-  font-size: 28px;
-  line-height: 32px;
-  margin-top: 20px;
-  max-width: 900px;
+  font-size: 20px;
+  line-height: 48px;
+  margin-top: 16px;
+  max-width: 718px;
 }
 
 .subcon {
   display: flex;
   justify-content: space-between;
+}
+
+.leftcon {
+  flex-basis: 55%;
+}
+
+.rightcon {
+  flex-basis: 45%;
 }
 
 @media (max-width: 850px) {

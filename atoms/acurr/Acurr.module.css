@@ -1,6 +1,7 @@
 .container {
   display: flex;
   gap: 10px;
+  align-items: center;
   margin-top: 20px;
 }
 
@@ -14,24 +15,26 @@
   justify-content: center;
 }
 
-.textcon {
+/* .textcon {
   max-width: 550px;
   overflow: hidden;
-}
+} */
 
 .textcon h4 {
   font-family: 'Lato';
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500px;
-  line-height: 22px;
+  line-height: 24px;
   color: rgba(75, 85, 99, 1);
+  max-width: 316px;
 }
 
 .textcon p {
   font-family: 'Lato';
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400px;
-  line-height: 20px;
+  line-height: 34px;
   color: rgba(75, 85, 99, 1);
-  margin-top: 10px;
+  margin-top: 16px;
+  max-width: 469px;
 }

@@ -8,8 +8,8 @@ const Acurr = (props: AcurrType) => {
     <div className={styles.container}>
       <div className={styles.imagecon}>
         <Image
-          width={40}
-          height={40}
+          width={30}
+          height={30}
           alt={name}
           src={rp}
           className={styles.image}

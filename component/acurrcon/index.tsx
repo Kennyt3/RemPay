@@ -9,14 +9,9 @@ const Acurrcon = (props: homePageType) => {
   const { acurr, acurrimg } = props
   return (
     <div className={styles.container}>
-      <div className={styles.rightcon}>
-        {acurrdata.map((item, index) => (
-          <Acurr key={index} {...item} />
-        ))}
-      </div>
-      <div className={styles.leftcon}>
-        <Image width={200} height={200} alt={acurr} src={acurrimg} />
-      </div>
+      {acurrdata.map((item, index) => (
+        <Acurr key={index} {...item} />
+      ))}
     </div>
   )
 }
