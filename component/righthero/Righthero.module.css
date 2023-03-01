@@ -1,27 +1,35 @@
+.container {
+  padding-left: 20px;
+  position: relative;
+  padding-bottom: 50px;
+}
+
 .heading {
   color: rgba(75, 85, 99, 1);
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
-  line-height: 64px;
-  max-width: 600px;
+  line-height: 48px;
+  max-width: 549px;
 }
 
 .subheading1 {
   color: rgba(75, 85, 99, 1);
-  font-size: 24px;
+  font-size: 18px;
   max-width: 522px;
   font-weight: 500;
-  line-height: 28.8px;
-  margin-top: 48px;
+  line-height: 21.6px;
+  margin-top: 24px;
+  max-width: 394px;
 }
 
 .subheading2 {
   color: rgba(75, 85, 99, 1);
-  font-size: 24px;
+  font-size: 18px;
   max-width: 340px;
   font-weight: 500;
-  line-height: 28.8px;
+  line-height: 21.6px;
   margin-top: 16px;
+  max-width: 261px;
 }
 
 .btn {
@@ -33,30 +41,29 @@
   padding-bottom: 15px;
   border: none;
   border-radius: 5px;
-  font-size: 24px;
+  font-family: 'Lato';
+  font-size: 16px;
   line-height: 18px;
   font-weight: 700;
-  margin-top: 40px;
+  margin-top: 59px;
 }
 
 .imgcon {
-  max-width: 400px;
-  position: relative;
+  position: absolute;
+  bottom: 5px;
+  right: 150px;
 }
 
-.image {
+/* .image {
   position: absolute;
   top: 0;
   right: 0;
-}
-@media (max-width: 800px) {
-  .heading {
-    font-size: 40px;
-    line-height: 50px;
-  }
-
-  .subheading1 {
-    margin-top: 30px;
+} */
+@media (max-width: 850px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
   }
   .image {
     display: none;

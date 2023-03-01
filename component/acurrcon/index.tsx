@@ -11,7 +11,7 @@ const Acurrcon = (props: homePageType) => {
     <div className={styles.container}>
       <div className={styles.rightcon}>
         {acurrdata.map((item, index) => (
-          <Acurr {...item} />
+          <Acurr key={index} {...item} />
         ))}
       </div>
       <div className={styles.leftcon}>

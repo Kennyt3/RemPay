@@ -8,8 +8,8 @@ const Lefthero = (props: homePageType) => {
   return (
     <div className={styles.container}>
       <Image
-        width={400}
-        height={400}
+        width={450}
+        height={450}
         src={img1}
         alt='hero Image'
         className={styles.image}

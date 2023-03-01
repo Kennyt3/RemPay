@@ -25,5 +25,7 @@ export const homePageData = () => {
     linoimage: '/pics/finance.png',
     acurrimg: '/pics/acurrimg.png',
     acur: 'acur',
+    prof: '/pics/prof.png',
+    payslip: '/pics/payslip.png',
   }
 }

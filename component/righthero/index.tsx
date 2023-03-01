@@ -8,8 +8,9 @@ const Righthero = (props: homePageType) => {
     <div className={styles.container}>
       <h1 className={styles.heading}>{Heading}</h1>
       <p className={styles.subheading1}>{subHeading1}</p>
+      <p className={styles.subheading2}>{subHeading2}</p>
+      <button className={styles.btn}>Get Started</button>
       <div className={styles.imgcon}>
-        <p className={styles.subheading2}>{subHeading2}</p>
         <Image
           width={50}
           height={50}
@@ -18,7 +19,6 @@ const Righthero = (props: homePageType) => {
           className={styles.image}
         />
       </div>
-      <button className={styles.btn}>Get Started</button>
     </div>
   )
 }

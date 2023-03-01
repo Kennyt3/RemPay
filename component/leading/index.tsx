@@ -10,36 +10,36 @@ const Leading = (props: homePageType) => {
         <h4 className={styles.head}>{leading}</h4>
         <div className={styles.imageCon}>
           <Image
-            width={60}
-            height={60}
+            width={80}
+            height={80}
             src={tech4dev}
             alt='hero Image'
             className={styles.image}
           />
           <Image
-            width={60}
-            height={60}
+            width={80}
+            height={80}
             src={Triplec}
             alt='hero Image'
             className={styles.image}
           />
           <Image
-            width={60}
-            height={60}
+            width={80}
+            height={80}
             src={Reina}
             alt='hero Image'
             className={styles.image}
           />
           <Image
-            width={60}
-            height={60}
+            width={80}
+            height={80}
             src={kodafrica}
             alt='hero Image'
             className={styles.image}
           />
           <Image
-            width={60}
-            height={60}
+            width={80}
+            height={80}
             src={Blackulture}
             alt='hero Image'
             className={styles.image}

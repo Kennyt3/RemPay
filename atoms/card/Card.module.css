@@ -1,38 +1,42 @@
 .container {
-  width: fit-content;
-  height: fit-content;
+  /* width: fit-content;
+  height: fit-content; */
   margin-right: auto;
   margin-left: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   background-color: rgba(255, 255, 255, 1);
   margin-top: 20px;
 }
 
 .head {
   color: rgba(75, 85, 99, 1);
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
-  line-height: 24px;
-  max-width: 200px;
+  line-height: 28.8px;
 
   text-align: center;
   margin-top: 10px;
+  min-width: 249px;
 }
 
 .para {
   color: rgba(75, 85, 99, 1);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 20px;
-  max-width: 200px;
-
+  line-height: 24.48px;
+  min-width: 293px;
   margin-top: 10px;
 }
 
+.imageCon {
+  min-width: 249px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .image {
-  width: fit-content;
-  margin-right: auto;
-  margin-left: auto;
 }

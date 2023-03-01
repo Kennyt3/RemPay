@@ -21,4 +21,6 @@ export type homePageType = {
   linoimage: string
   acurrimg: string
   acurr: string
+  prof: string
+  payslip: string
 }

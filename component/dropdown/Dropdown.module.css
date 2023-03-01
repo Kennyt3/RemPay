@@ -27,13 +27,12 @@
 }
 
 .res {
-  font-size: 24px;
+  font-size: 16px;
+  line-height: 19.2px;
+  font-weight: 400;
+  font-family: 'Lato';
   font-weight: 400;
 }
 
 @media (max-width: 1000px) {
-  .res {
-    font-size: 20px;
-    font-weight: 400;
-  }
 }
