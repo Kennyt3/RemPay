@@ -9,6 +9,7 @@ import Why from '@/component/why'
 import Lino from '@/component/lino'
 import Acurrcon from '@/component/acurrcon'
 import Footie from '@/component/footie'
+import Footer from '@/component/Footer'
 
 export default function Home(props: homePageType) {
   return (
@@ -23,6 +24,7 @@ export default function Home(props: homePageType) {
         <Why {...props} />
         <Lino {...props} />
         <Footie {...props} />
+        <Footer />
       </main>
     </>
   )

@@ -30,5 +30,32 @@ export const homePageData = () => {
     iehead: 'Streamline your payroll, see the difference with a demo today!',
     iesub:
       'Get a sneak peek of our effortless payroll management system that prioritises transparency and security benefits. ',
+    // datt: [
+    //   {
+    //     head: 'Product',
+    //     bod: ['Features', 'Pricing', 'Resources', 'Reviews', 'Updates'],
+    //   },
+
+    //   {
+    //     head: 'Company',
+    //     bod: ['About', 'Contact us', 'Careers', 'Culture', 'Blog'],
+    //   },
+
+    //   {
+    //     head: 'Support',
+    //     bod: [
+    //       'Getting started',
+    //       'Help center',
+    //       'Server status',
+    //       'Report a bug',
+    //       'Chat support',
+    //     ],
+    //   },
+
+    //   {
+    //     head: 'Downloads',
+    //     bod: ['iOS', 'Android', 'Mac', 'Windows', 'Chrome'],
+    //   },
+    // ],
   }
 }
