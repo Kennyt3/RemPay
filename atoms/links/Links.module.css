@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head {
+  color: rgba(17, 106, 204, 1);
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: 'Lato';
+}
+
+.text {
+  color: rgba(75, 85, 99, 1);
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: 'Lato';
+  margin-top: 18px;
+}

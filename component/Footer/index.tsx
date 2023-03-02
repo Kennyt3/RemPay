@@ -6,9 +6,7 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.subcon}></div>
-      {/* {datt.map((item: any, index: any) => ( */}
       <Links />
-      {/* ))} */}
     </div>
   )
 }

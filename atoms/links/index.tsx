@@ -1,14 +1,17 @@
 import React from 'react'
 import { datt } from '@/data/datts'
+import styles from './Links.module.css'
 
 const Links = (props: any) => {
   return (
-    <div>
+    <div className={styles.container}>
       {datt.map((item: any) => (
         <div>
-          <h4>{item.head}</h4>
+          <h4 className={styles.head}>{item.head}</h4>
           {item.bod.map((item: any, index: any) => (
-            <p key={index}>{item}</p>
+            <p className={styles.text} key={index}>
+              {item}
+            </p>
           ))}
         </div>
       ))}
