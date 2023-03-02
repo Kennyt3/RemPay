@@ -26,6 +26,7 @@
 .subcon {
   display: flex;
   justify-content: space-between;
+  gap: 50px;
 }
 
 .leftcon {
@@ -36,12 +37,24 @@
   flex-basis: 45%;
 }
 
+@media (max-width: 900px) {
+  .subcon {
+  }
+
+  .rightcon {
+    flex-basis: 40%;
+  }
+}
 @media (max-width: 850px) {
   .container {
     padding-right: 30px;
     padding-left: 30px;
   }
-  .imagecon {
+
+  .subcon {
+    display: block;
+  }
+  .rightcon {
     display: none;
   }
 }
