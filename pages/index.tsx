@@ -8,6 +8,7 @@ import Leading from '@/component/leading'
 import Why from '@/component/why'
 import Lino from '@/component/lino'
 import Acurrcon from '@/component/acurrcon'
+import Footie from '@/component/footie'
 
 export default function Home(props: homePageType) {
   return (
@@ -21,6 +22,7 @@ export default function Home(props: homePageType) {
         <Leading {...props} />
         <Why {...props} />
         <Lino {...props} />
+        <Footie {...props} />
       </main>
     </>
   )

@@ -1,0 +1,39 @@
+.container {
+  background-color: rgba(31, 41, 55, 1);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.kos {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subcon {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 763px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.head {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: 'Lato';
+  text-align: center;
+}
+
+.para {
+  font-size: 18px;
+  line-height: 21.6px;
+  font-weight: 400;
+  font-family: 'Lato';
+  text-align: center;
+  margin-top: 24px;
+}

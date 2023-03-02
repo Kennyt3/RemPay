@@ -23,4 +23,6 @@ export type homePageType = {
   acurr: string
   prof: string
   payslip: string
+  iehead: string
+  iesub: string
 }

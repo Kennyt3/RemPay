@@ -4,6 +4,7 @@
   margin-right: auto;
   margin-top: 96px;
   padding-left: 30px;
+  padding-bottom: 50px;
 }
 
 .head {
@@ -35,6 +36,31 @@
 
 .rightcon {
   flex-basis: 45%;
+  overflow: hidden;
+  position: relative;
+}
+
+.graph {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+}
+
+.acurr {
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+}
+.payslip {
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+}
+
+.prof {
+  position: absolute;
+  bottom: -10px;
+  left: -20px;
 }
 
 @media (max-width: 900px) {

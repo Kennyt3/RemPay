@@ -27,5 +27,8 @@ export const homePageData = () => {
     acur: 'acur',
     prof: '/pics/prof.png',
     payslip: '/pics/payslip.png',
+    iehead: 'Streamline your payroll, see the difference with a demo today!',
+    iesub:
+      'Get a sneak peek of our effortless payroll management system that prioritises transparency and security benefits. ',
   }
 }
